@@ -1,0 +1,12 @@
+@media (max-width: 575.98px){
+    .email-form-user{
+        flex-direction: column;
+    }
+    .inpt{
+        margin-right: 23px;
+
+    }
+    .inpt-user{
+       margin-top: 30px;
+    }
+}

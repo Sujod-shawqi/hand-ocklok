@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img-logo{
+    width: 9vw;
+}
+.hands { 
+    width: 100%;
+}
+.navbar .nav-link{
+    font-weight: bold;
+    color: #31456a;
+}
+.hand-ocklock .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.send-request{
+    border: none;
+    padding: 9px 40px;
+    border-radius: 20px;
+    background-color: #31456a;
+    color: #fff;
+}
+.details-company{
+    background-color:#31456a ;
+    padding: 30px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 0px grey;
+    color: #fff;
+}
+.soudian{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.send-request { 
+    margin-bottom: 30px;
+}
+.send-request:hover{
+    background-color:#395ea8 ;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.benefit-icon { 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn-send:hover{
+    background-color:#395ea8 ;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.devied-icon { 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.pay-rent{
+    color: #31456a;
+}
+.select{
+    color: #31456a; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+.contact{
+    color: #31456a; 
+    font-size: 3rem;
+    font-weight: bold;
+}
+.without{
+    color: #31456a;
+    font-size: 1.8rem;
+}
+.details-site{
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.details-section4 .row{
+    min-height: 42vh;
+}
+.details-ocklock{
+    color: #31456a;
+}
+.photo{
+  width: 25vw;
+  border-radius: 10px;
+}
+.choose-ocklock .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.data-img{
+    height: 70vh;
+}
+.details-data{
+    width: 250px;
+}
+.section-data .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.email-form-user{
+    display: flex;
+    justify-content: center;
+}
+.text-areas{
+    display: flex;
+    justify-content: center;
+}
+.inpt-user{
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 0px 12px -2px gray;
+}
+.earea-texts{
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 12px -2px gray;
+}
+.earea-texts:focus{
+    outline: none;
+}
+.inpt-user:focus{
+    outline: none;
+}
+.section-footer .row{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.about{
+    text-align: left;
+}
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 94, 94);
+    font-weight: bold;
+    display: block;
+}
+.copy-right{
+    color: #31456a;
+}
+.btn-send{
+    padding:10px 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #31456a;
+    color: #fff;
+}
+.section-footer{
+    background-color:#c5e3ff;
+}
+@media (min-width:1px) and (max-width:575.9px) { 
+    .soudian {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .select {
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .data-img {
+        margin-top: 40px;
+    }
+}
